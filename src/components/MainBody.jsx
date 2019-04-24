@@ -51,6 +51,15 @@ function MainBody(){
           text-decoration: none;
           color: #3D95CE;
         }
+
+        button:hover{
+          border-color: #9bd7ff;
+          background-color: #9bd7ff;
+        }
+
+        a:hover{
+          color: #9bd7ff;
+        }
       `}</style>
      <div className="body-left">
        <div >

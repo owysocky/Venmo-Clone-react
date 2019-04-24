@@ -18,7 +18,7 @@ function Footer(){
         }
       `}</style>
       <div className="center">
-        <h1>Works</h1>
+        <h1>Works!</h1>
       </div>
     </div>
   );

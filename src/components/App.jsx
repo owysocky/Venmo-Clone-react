@@ -2,6 +2,7 @@ import React from "react";
 import { Switch, Route } from 'react-router-dom';
 
 import Header from "./Header";
+import MainBody from "./MainBody";
 
 
 function App(){
@@ -14,11 +15,10 @@ function App(){
 
   return (
     <div>
-
       <Header/>
         <hr style={line}/>
       <Switch>
-
+        <MainBody/>
       </Switch>
     </div>
   );

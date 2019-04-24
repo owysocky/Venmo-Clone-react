@@ -48,7 +48,9 @@ function Header(){
         a:hover{
           color: #9bd7ff;
         }
-
+        .signIn{
+          font-weight: 450;
+        }
         `}</style>
       <div className="bar">
       <div className="header-image">
@@ -65,7 +67,7 @@ function Header(){
       <div className="header-sign-in">
         <ul>
           <li><a href="">Contuct Us</a></li>
-          <li><strong><a href="">Sing In</a></strong></li>
+          <li><a className="signIn" href="">Sing In</a></li>
         </ul>
       </div>
     </div>

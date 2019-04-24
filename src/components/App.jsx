@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import Header from "./Header";
 import MainBody from "./MainBody";
+import Footer from "./Footer";
 
 
 function App(){
@@ -17,9 +18,12 @@ function App(){
     <div>
       <Header/>
         <hr style={line}/>
+          
       <Switch>
         <MainBody/>
       </Switch>
+
+      <Footer/>
     </div>
   );
 }

@@ -5,6 +5,9 @@ function MainBody(){
   return(
     <div className="center">
       <style jsx>{`
+        div{
+          font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        }
         img{
           margin-top: 30px;
           width: 324px;
@@ -20,7 +23,6 @@ function MainBody(){
           height: 50px;
         }
         h1{
-            font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
             font-weight: 200;
             font-size: 50px;
         }
@@ -30,13 +32,23 @@ function MainBody(){
           margin-left: 570px;
         }
         button{
-          font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
           font-size: 20px;
           background-color: #3D95CE;
           color: white;
           border: 2px solid #3D95CE;
           border-radius: 5px;
           padding: 15px 80px;
+        }
+        p{
+          color: gray;
+          font-size: 14px;
+        }
+        .emailFont{
+          font-size: 18px;
+        }
+        a{
+          text-decoration: none;
+          color: #3D95CE;
         }
       `}</style>
      <div className="body-left">
@@ -50,7 +62,9 @@ function MainBody(){
 
       <div className="body-right">
           <h1>Send money and<br/>make purchases at<br/>approved merchants</h1>
-            <button>Sign Up With Facebook</button>
+          <button>Sign Up With Facebook</button>
+          <p>We'll never post without your permission.</p>
+          <p className="emailFont">or whith your <a href="">email address</a></p>
       </div>
     </div>
   );

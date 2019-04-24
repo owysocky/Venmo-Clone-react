@@ -6,19 +6,18 @@ function Header(){
     <div>
       <style jsx>{`
         img{
-          height: 20px;
+          height: 18px;
         }
         .bar{
-          width: 800px;
+          width: 1000px;
           margin: 0 auto;
-          border-bottom: 1px solid lightgray;
           height: 50px;
         }
 
         li{
           list-style: none;
           display: inline;
-          padding: 10px;
+          padding: 20px;
         }
 
         .header-image{
@@ -28,15 +27,26 @@ function Header(){
         }
 
         .header-nav{
-          margin-left: 20px;
+          margin-left: 100px;
           display: inline;
           float: left;
 
         }
 
         .header-sign-in{
+          margin-left: 5px;
           display: inline;
           float:left;
+        }
+
+        a{
+          font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+          color: #3d95ce;
+          text-decoration: none;
+        }
+
+        a:hover{
+          color: #9bd7ff;
         }
 
         `}</style>
@@ -46,16 +56,16 @@ function Header(){
       </div>
       <div className="header-nav">
         <ul>
-          <li>How Venmo Works</li>
-          <li>Business</li>
-          <li>Card</li>
-          <li>Security</li>
+          <li><a href="">How Venmo Works</a></li>
+          <li><a href="">Business</a></li>
+          <li><a href="">Card</a></li>
+          <li><a href="">Security</a></li>
         </ul>
       </div>
       <div className="header-sign-in">
         <ul>
-          <li>Contuct Us</li>
-          <li><strong>Sing In</strong></li>
+          <li><a href="">Contuct Us</a></li>
+          <li><strong><a href="">Sing In</a></strong></li>
         </ul>
       </div>
     </div>

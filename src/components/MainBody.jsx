@@ -18,7 +18,6 @@ function MainBody(){
           margin-left: -100px;
         }
         .center{
-          border: 1px solid black;
           width: 1000px;
           margin: 0 auto;
           height: 900px;

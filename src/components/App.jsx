@@ -18,12 +18,12 @@ function App(){
     <div>
       <Header/>
         <hr style={line}/>
-          
+
       <Switch>
         <MainBody/>
       </Switch>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 }

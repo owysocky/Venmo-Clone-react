@@ -18,9 +18,10 @@ function MainBody(){
           margin-left: -100px;
         }
         .center{
+          border: 1px solid black;
           width: 1000px;
           margin: 0 auto;
-          height: 50px;
+          height: 900px;
         }
         h1{
             font-weight: 200;
